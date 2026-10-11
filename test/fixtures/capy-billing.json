@@ -1,0 +1,4 @@
+{"customer":true,"plans":[{"planId":"capy_lite","name":"Capy Lite","status":"active","canceledAt":"2026-10-09T19:36:23.010Z","currentPeriodEnd":"2026-10-16T18:55:08.000Z"}],
+ "balance":{"grantedCredits":1120000,"usedCredits":29201.43,"remainingCredits":1090798.56,"planRemainingCredits":1090798.56,"purchasedRemainingCredits":0,
+  "sources":[{"id":"grant_a","kind":"grant","name":"Credit grant","grantedCredits":100000,"remainingCredits":90798.56,"resetsAt":null,"expiresAt":null},{"id":"grant_b","kind":"grant","name":"Credit grant","grantedCredits":1000000,"remainingCredits":1000000,"resetsAt":null,"expiresAt":null}],"unlimited":false},
+ "paidAllowed":true,"paymentMethod":true,"autoReload":{"enabled":false,"thresholdCredits":0,"amountCredits":0,"monthlyCapCredits":null,"latestAttempt":null},"period":{"start":"2026-10-09T18:55:08.000Z","end":"2026-10-16T18:55:08.000Z"},"machineMemory":{"budgetGb":512,"runningGb":48,"servicePrincipalCapGb":64,"custom":false}}

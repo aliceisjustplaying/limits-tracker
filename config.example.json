@@ -1,0 +1,26 @@
+{
+  "listen": { "hosts": ["127.0.0.1"], "port": 8790 },
+  "database": "/var/lib/limits/limits.sqlite",
+  "retentionDays": 120,
+  "cliproxy": {
+    "baseUrl": "http://localhost:8317",
+    "managementKeyFile": "cliproxy-management-key"
+  },
+  "claude": {
+    "accounts": {
+      "alice@example.com": { "label": "Claude (personal)" },
+      "old@example.com": { "disabled": true }
+    }
+  },
+  "codex": {
+    "accounts": {
+      "alice@example.com": { "label": "Codex", "chatgptAccountId": "only-if-auth-files-lacks-it" }
+    }
+  },
+  "grok": { "accounts": {} },
+  "opencodeGo": [{ "id": "main", "label": "Go (main workspace)", "keyFile": "opencode-go-main" }],
+  "openrouter": [],
+  "capy": [{ "id": "alice", "label": "Capy", "keyFile": "capy-api-key", "balanceUsd": 100, "balanceAsOf": "2026-10-01" }],
+  "opencode": [{ "id": "default", "label": "OpenCode (Default workspace)" }],
+  "intervalMinutes": { "codex": 2, "opencode-go": 2 }
+}

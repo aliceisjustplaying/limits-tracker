@@ -1,0 +1,5 @@
+{"product":"go","access":{"startsAt":"2026-10-01T00:00:00Z","endsAt":"2026-11-01T00:00:00Z","cancelAtPeriodEnd":false,
+ "meters":{
+  "fiveHour":{"startsAt":"2026-10-11T08:00:00Z","resetsAt":"2026-10-11T13:00:00Z","limitMicroCents":"240000000","usedMicroCents":"60000000"},
+  "week":{"startsAt":"2026-10-06T00:00:00Z","resetsAt":"2026-10-13T00:00:00Z","limitMicroCents":"600000000","usedMicroCents":"510000000"},
+  "month":{"resetsAt":"2026-11-01T00:00:00Z","limitMicroCents":"1200000000","usedMicroCents":"0"}}}}

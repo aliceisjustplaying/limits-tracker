@@ -1,0 +1,82 @@
+{
+  "from": "2026-10-01T00:00:00.000Z",
+  "to": "2026-10-11T12:00:00.000Z",
+  "totals": {
+    "llmDollars": 30,
+    "imageDollars": 0.5,
+    "vmDollars": 8,
+    "totalDollars": 38.5
+  },
+  "tokens": {
+    "inputTokens": 1200000,
+    "outputTokens": 90000,
+    "cacheReadTokens": 30000000,
+    "cacheWriteTokens": 400000
+  },
+  "members": [
+    {
+      "principalUserId": "usr_R",
+      "llmDollars": 30,
+      "imageDollars": 0.5,
+      "vmDollars": 8,
+      "totalDollars": 38.5
+    }
+  ],
+  "models": [
+    {
+      "model": "review",
+      "label": "Review",
+      "dollars": 0,
+      "unbilled": false,
+      "tokens": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 0
+      }
+    },
+    {
+      "model": "anthropic/claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "dollars": 30,
+      "unbilled": false,
+      "tokens": {
+        "inputTokens": 800000,
+        "outputTokens": 60000,
+        "cacheReadTokens": 20000000,
+        "cacheWriteTokens": 300000
+      }
+    },
+    {
+      "model": "openai/gpt-6-sol",
+      "label": "GPT-6 Sol",
+      "dollars": 11.5,
+      "unbilled": true,
+      "tokens": {
+        "inputTokens": 400000,
+        "outputTokens": 30000,
+        "cacheReadTokens": 10000000,
+        "cacheWriteTokens": 100000
+      }
+    },
+    {
+      "model": "review",
+      "label": "Review",
+      "dollars": 0,
+      "unbilled": true,
+      "tokens": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 0
+      }
+    }
+  ],
+  "images": [
+    {
+      "endpoint": "generate",
+      "label": "Image generation",
+      "dollars": 0.5
+    }
+  ]
+}

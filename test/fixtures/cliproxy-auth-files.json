@@ -1,0 +1,83 @@
+{
+  "observed_at": "2026-10-11T09:00:00Z",
+  "files": [
+    {
+      "id": "claude-a.json",
+      "auth_index": "a1b2",
+      "name": "claude-a.json",
+      "type": "claude",
+      "provider": "claude",
+      "email": "a@example.com",
+      "status": "active",
+      "disabled": false
+    },
+    {
+      "id": "claude-b.json",
+      "auth_index": "c3d4",
+      "name": "claude-b.json",
+      "type": "claude",
+      "provider": "claude",
+      "email": "b@example.com",
+      "status": "active",
+      "disabled": false
+    },
+    {
+      "id": "claude-off.json",
+      "auth_index": "dead",
+      "name": "claude-off.json",
+      "type": "claude",
+      "provider": "claude",
+      "email": "off@example.com",
+      "status": "disabled",
+      "disabled": true
+    },
+    {
+      "id": "codex-a.json",
+      "auth_index": "e5f6",
+      "name": "codex-a.json",
+      "type": "codex",
+      "provider": "codex",
+      "email": "c@example.com",
+      "status": "active",
+      "disabled": false,
+      "id_token": {
+        "chatgpt_account_id": "acct-from-token",
+        "plan_type": "pro"
+      }
+    },
+    {
+      "id": "codex-b.json",
+      "auth_index": "g7h8",
+      "name": "codex-b.json",
+      "type": "codex",
+      "provider": "codex",
+      "email": "d@example.com",
+      "status": "active",
+      "disabled": false
+    },
+    {
+      "id": "xai-a.json",
+      "auth_index": "x1y2",
+      "name": "xai-a.json",
+      "type": "xai",
+      "provider": "xai",
+      "email": "g@example.com",
+      "status": "active",
+      "disabled": false
+    },
+    {
+      "id": "gemini.json",
+      "auth_index": "i9j0",
+      "name": "gemini.json",
+      "type": "gemini",
+      "provider": "gemini",
+      "email": "e@example.com",
+      "status": "active",
+      "disabled": false
+    },
+    {
+      "name": "broken-without-index.json",
+      "provider": "claude"
+    }
+  ]
+}

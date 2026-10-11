@@ -1,0 +1,4 @@
+{
+  "account": { "uuid": "acc_R", "email": "a@example.com", "has_claude_max": true, "has_claude_pro": false },
+  "organization": { "uuid": "org_R", "organization_type": "claude_max", "rate_limit_tier": "default_claude_max_20x", "billing_type": "stripe_subscription" }
+}

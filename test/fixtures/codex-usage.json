@@ -1,0 +1,13 @@
+{
+  "plan_type": "pro",
+  "rate_limit": {
+    "allowed": true,
+    "limit_reached": false,
+    "primary_window": { "used_percent": 31, "limit_window_seconds": 18000, "reset_at": 1700000100 },
+    "secondary_window": { "used_percent": 62, "limit_window_seconds": 604800, "reset_at": 1700200000000 }
+  },
+  "credits": { "has_credits": true, "unlimited": false, "balance": "61246.065", "approx_local_messages": [0, 0], "approx_cloud_messages": [0, 0] },
+  "additional_rate_limits": [
+    { "limit_name": "Spark", "rate_limit": { "primary_window": { "used_percent": 8, "limit_window_seconds": 10800, "reset_after_seconds": 90 } } }
+  ]
+}

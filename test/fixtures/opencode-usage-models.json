@@ -1,0 +1,7 @@
+{"items":[
+ {"model":"kimi-k3","provider":"opencode-go","totalRequests":"149","totalInputTokens":"1086509","totalOutputTokens":"108434","totalCacheReadTokens":"6934595","totalCacheWrite5mTokens":"0","totalCacheWrite1hTokens":"0","totalCostMicroCents":"696641550"},
+ {"model":"muse-spark-1.3","provider":"opencode","totalRequests":"12","totalInputTokens":"50000","totalOutputTokens":"4000","totalCacheReadTokens":"0","totalCacheWrite5mTokens":"100","totalCacheWrite1hTokens":"20","totalCostMicroCents":"25000000"},
+ {"model":"claude-opus","provider":"anthropic","totalRequests":"1","totalCostMicroCents":"0"},
+ {"provider":"opencode"}
+],
+"pageInfo":{"page":1,"pageSize":100,"total":3,"pageCount":1}}

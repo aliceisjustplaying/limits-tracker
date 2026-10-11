@@ -1,0 +1,9 @@
+{
+  "leader_mode": false,
+  "release_channel": "stable",
+  "force_update": false,
+  "min_client_version": "1.0.0",
+  "memory_enabled": true,
+  "subscription_tier_display": "SuperGrok",
+  "subscription_watch_interval_secs": 60
+}
